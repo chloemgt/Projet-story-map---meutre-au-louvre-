@@ -33,7 +33,9 @@ html,body {
     text-align: center;
 }
 .h1{
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    color:#334039 ;
 }
 .titre1{
     font-family: 'Courier New', Courier, monospace;
@@ -61,4 +63,17 @@ html,body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+}
+
+.paragraphe{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    color: #334039;
+    padding-left: 65%;
+}
+.paragraphe2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: black;
+    padding-left: 60%; 
 }
