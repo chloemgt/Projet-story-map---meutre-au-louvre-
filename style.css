@@ -1,4 +1,16 @@
 /*Haut de page*/
+.wrapper{
+
+    display: grid;
+  
+  }
+  
+  /* ------------------------- */
+  
+  section {
+      padding: 2em 1em;
+  }
+  
 
 html,body {
     margin: 0;
@@ -24,12 +36,29 @@ html,body {
     text-align: center;
 }
 .titre1{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
     color: #334039;
 }
 .titre2{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
+    text-align: center;
     color:#45593F;
+}
+.presentationlivre{
+    background-color: #F2F0E4;
+}
+
+.livre{
+    padding-left: 38.5%;
+    width: 25%;
+}
+.synopsis{
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #A64C44;
+}p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
