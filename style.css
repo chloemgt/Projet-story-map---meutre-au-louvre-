@@ -19,13 +19,23 @@ html,body {
 #header {
     background-color: #334039;
 }
+ul{
+    display: flex;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+li{
+    margin:10px;
+    float:center; 
+}
 .logo{
     width: 20%;
     padding-left: 40%;
 }
 #menu{
     display: center;
-    padding-left: 47%;
+    padding-left: 35%;
     font-family: Arial, Helvetica, sans-serif;
     color:#ffff ;
 }
@@ -69,11 +79,18 @@ html,body {
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
     color: #334039;
-    padding-left: 65%;
+    padding-left: 55%;
 }
 .paragraphe2{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
     color: black;
-    padding-left: 60%; 
+    padding-left: 180%;
+}
+.exemple-class {
+    display: flex;
+    flex: 1 1 50%;
+  }
+.image{
+    object-position: center;
+    width: 45%;
 }
