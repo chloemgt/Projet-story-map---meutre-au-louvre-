@@ -87,11 +87,12 @@ li{
 .paragraphe2{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    padding-left: 180%;
+    display: flex;
+    flex: 1 2 50%;
 }
 .exemple-class {
     display: flex;
-    flex: 1 1 50%;
+    flex: 1 2 50%;
   }
 .image{
     object-position: center;
