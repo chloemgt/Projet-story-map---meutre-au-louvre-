@@ -71,7 +71,7 @@ li{
     font-family: 'Courier New', Courier, monospace;
     color:  #403C35;
 }p {
-    text-align: center;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
@@ -86,6 +86,7 @@ li{
 }
 .paragraphe2{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
     color: black;
     display: flex;
     flex: 1 2 50%;
